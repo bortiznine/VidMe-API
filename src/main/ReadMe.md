@@ -1,4 +1,5 @@
 <h1>VidMe URL Library Project</h1>
+<p>* EDIT, ACTUAL COMMIT COUNT IS 38+ current commits! Had to force push becuase of git issues</p>
 
 <h2>Wireframe and ERD Diagram</h2>
 
