@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[remote "heroku"]
+	url = https://git.heroku.com/powerful-temple-59057.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
