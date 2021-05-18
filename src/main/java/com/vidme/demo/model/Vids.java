@@ -14,7 +14,7 @@ public class Vids {
     private Long id;
 
     @Column
-    private String username;
+    private String userName;
 
     @Column
     private String title;
@@ -31,9 +31,9 @@ public class Vids {
 
     public Vids() {
     }
-    public Vids(Long id, String username, String title, String vidurl) {
+    public Vids(Long id, String userName, String title, String vidurl) {
         this.id = id;
-        this.username = username;
+        this.userName = userName;
         this.title = title;
         this.vidurl = vidurl;
     }
@@ -47,11 +47,11 @@ public class Vids {
     }
 
     public String getUsername() {
-        return username;
+        return userName;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.userName = userName;
     }
 
     public String getTitle() {
@@ -84,7 +84,7 @@ public class Vids {
     public String toString() {
         return "Vids{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", username='" + userName + '\'' +
                 ", title='" + title + '\'' +
                 ", vidurl='" + vidurl + '\'' +
                 ", user=" + user +
