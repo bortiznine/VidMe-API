@@ -83,7 +83,7 @@ public class VidMeService {
         } else {
 
             if(isValidURL(vidsObject.getVidurl())==true) {
-                vidsObject.setUsername(userDetails.getUser().getUsername());
+                vidsObject.setUserName(userDetails.getUser().getUserName());
                 vidsObject.setUser(userDetails.getUser()); //might have to come back to change vidsobject to vids to pass proper data
                 vidsObject.setTitle(vidsObject.getTitle());
                 vidsObject.setVidurl(vidsObject.getVidurl());

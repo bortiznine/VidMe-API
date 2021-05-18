@@ -83,7 +83,7 @@ public class UserService {
             user.setPassword(passwordEncoder.encode(passwordRequest.getNewPassword()));
             userRepository.save(user);
             HashMap<String, String> responseMessage = new HashMap<>();
-            responseMessage.put("status", "Successfully updated password for user: " + user.getUsername() + "");
+            responseMessage.put("status", "Successfully updated password for user: " + user.getUserName() + "");
             return new ResponseEntity<>(responseMessage, HttpStatus.OK);
         }
         catch(NullPointerException e){

@@ -46,11 +46,11 @@ public class Vids {
         this.id = id;
     }
 
-    public String getUsername() {
+    public String getUserName() {
         return userName;
     }
 
-    public void setUsername(String username) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
@@ -84,7 +84,7 @@ public class Vids {
     public String toString() {
         return "Vids{" +
                 "id=" + id +
-                ", username='" + userName + '\'' +
+                ", userName='" + userName + '\'' +
                 ", title='" + title + '\'' +
                 ", vidurl='" + vidurl + '\'' +
                 ", user=" + user +
