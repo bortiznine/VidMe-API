@@ -33,3 +33,9 @@ So I thought lets make a VidMe library. A hosted api site that saves your userna
 
 <h2>Sprint 8:</h2>
 <h4>Work on CSS and routing for all pages in the app</h4>
+
+<h2>Sprint 9:</h2>
+<h4>Make adjustments and final visual editsfor pages and make ts code efficient</h4>
+
+<h2>Final Sprint</h2>
+<h4>Push final code to heroku and have a proper app. Adjust package.json and dependencies to work so heroku can deploy successfully</h4>
