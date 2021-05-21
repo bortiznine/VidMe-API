@@ -1,5 +1,5 @@
 <h1>VidMe URL Library Project</h1>
-<a href= "https://vid-me-app.herokuapp.com/"></a>
+<a href= "https://vid-me-app.herokuapp.com/"> Click here for the FrontEnd Heroku</a>
 <p>* EDIT, ACTUAL COMMIT COUNT IS 38+ current commits! Had to force push becuase of git issues</p>
 
 <h2>Wireframe and ERD Diagram</h2>
