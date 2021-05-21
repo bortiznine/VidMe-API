@@ -5,6 +5,12 @@
 <p>* EDIT, ACTUAL COMMIT COUNT IS 38+ current commits! Had to force push becuase of git issues</p>
 
 <h2>Wireframe and ERD Diagram</h2>
+<h3>ERD Diagram</h3>
+![20210521_114550](https://user-images.githubusercontent.com/57266486/119171689-848a9700-ba2a-11eb-9fa5-16ac245c4b08.jpg)
+
+<h3>WireFrame</h3>
+![image](https://user-images.githubusercontent.com/57266486/119171868-c4ea1500-ba2a-11eb-9c77-67650481dadc.png)
+
 
 <h2>Initial Plan:</h2>
 <p>The idea of being able to externally share your playlist of favorite videos was something I thought was a great start.
