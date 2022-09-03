@@ -1,7 +1,5 @@
 package com.vidme.demo.model.Request;
 
-//this class will allow to login with the user name and password
-
 public class LoginRequest {
     private String email;
     private String password;

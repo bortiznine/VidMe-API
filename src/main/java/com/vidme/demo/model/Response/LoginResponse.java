@@ -1,7 +1,6 @@
 package com.vidme.demo.model.Response;
 
-// This class will send back the JWT token
-//if the username and password are correct
+
 public class LoginResponse {
 
     public String getJWT() {

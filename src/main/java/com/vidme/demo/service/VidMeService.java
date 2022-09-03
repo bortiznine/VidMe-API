@@ -82,7 +82,7 @@ public class VidMeService {
             throw new InformationExistException("Vid with title " + vids.getTitle() + " already exists");
         } else {
 
-            if(isValidURL(vidsObject.getVidurl())==true) {
+            if(isValidURL(vidsObject.getVidurl())) {
                 vidsObject.setUserName(userDetails.getUser().getUserName());
                 vidsObject.setUser(userDetails.getUser()); //might have to come back to change vidsobject to vids to pass proper data
                 vidsObject.setTitle(vidsObject.getTitle());

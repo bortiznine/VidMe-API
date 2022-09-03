@@ -11,9 +11,7 @@ public interface VidRepository extends JpaRepository<Vids, Long> {
     Vids findByTitle(String vidsTitle);
     List<Vids> findByUserId(Long userId);
 
-    //find by user and category then return the category
     Vids findByIdAndUserId(Long vidsId, Long userId);
 
-    //find by user id and category name
     Vids findByUserIdAndTitle(Long userId, String vidsTitle);
 }

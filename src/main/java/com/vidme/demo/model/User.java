@@ -16,7 +16,6 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private String userName;
 
     @Column(unique = true)
@@ -68,9 +67,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
-
-
 
     @Override
     public String toString() {

@@ -27,8 +27,6 @@ public class Vids {
     @JsonIgnore
     private User user;
 
-
-
     public Vids() {
     }
     public Vids(Long id, String userName, String title, String vidurl) {
@@ -73,13 +71,9 @@ public class Vids {
     public User getUser() {
         return user;
     }
-
-
-
     public void setUser(User user) {
         this.user = user;
     }
-
     @Override
     public String toString() {
         return "Vids{" +
