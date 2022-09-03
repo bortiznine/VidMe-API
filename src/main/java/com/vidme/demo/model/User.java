@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.util.List;
+
 
 @Entity
 @Table(name="users")
@@ -25,20 +25,6 @@ public class User {
     @Column
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
-
-
-    // one user can have only one profile
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name="profile_id", referencedColumnName="id")
-//    private UserProfile userProfile;
-
-//    public UserProfile getUserProfile() {
-//        return userProfile;
-//    }
-//
-//    public void setUserProfile(UserProfile userProfile) {
-//        this.userProfile = userProfile;
-//    }
 
     public User() {
     }
